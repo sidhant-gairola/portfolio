@@ -1,6 +1,11 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
+import certficate1 from "../assets/certificates/certificate-1.png";
+import certficate2 from "../assets/certificates/certificate-2.png";
+import certficate3 from "../assets/certificates/certificate-3.png";
+import certficate4 from "../assets/certificates/certificate-4.png";
+import { image } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and front-end technologies like HTML, CSS, JavaScript, React, and Tailwind CSS, along with hands-on experience in back-end development using Node.js, Express.js, and database management with MySQL and MongoDB. With a strong foundation in Artificial Intelligence and Machine Learning, I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations.`;
 
@@ -13,7 +18,7 @@ export const EXPERIENCES = [
     role: "Full Stack Developer",
     company: "Pheme Software Pvt. Ltd.",
     description: `Led a team in developing and maintaining a web application using React.js, Node.js, Express.js, and Tailwind CSS. Implemented RESTful APIs and integrated them with backend tools and technologies. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["React.js", "Node.js",  "Express.js","Tailwind CSS"],
+    technologies: ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
   },
 ];
 
@@ -24,22 +29,58 @@ export const PROJECTS = [
     description:
       "A web application that integrates user inputs and medical data through a RESTful API to provide tailored recommendations.",
     technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express"],
-},
-{
+  },
+  {
     title: "Nritya Dance Academy Website",
     image: project2,
     description:
       "A responsive website to enhance user engagement and streamline online services for a dance academy.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-},
-{
+  },
+  {
     title: "Multimodal Emotion Recognition System",
     image: project3,
     description:
       "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
     technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
-},
+  },
 ];
+
+export const CERTIFICATIONS = [
+  {
+    title: "Career Essentials in Data Analysis",
+    image: certficate1,
+    issuer: "Microsoft and LinkedIn",
+    issuedDate: "Aug 15, 2024",
+    description: "Completed a comprehensive learning path covering fundamental data analysis techniques, data visualization, and data analytics. Developed proficiency in interpreting datasets, creating insightful visual reports, and leveraging analytical tools to drive data-driven decision-making.",
+    certificateLink: "https://drive.google.com/file/d/1f1JtiB1Mr9IpV_8wrHOG4Qcz9POu_gmZ/view?usp=sharing",
+  },
+  {
+    title: "Cloud Computing",
+    image: certficate2,
+    issuer: "Infosys Springboard",
+    issuedDate: "Mar 3, 2025",
+    description: "Gained hands-on experience in cloud computing concepts, including virtualization, cloud service models, deployment strategies, and security best practices. Strengthened knowledge in cloud infrastructure, networking, and data storage solutions.",
+    certificateLink: "https://drive.google.com/file/d/1x67sOY6E99jWxpbF1xSDl6AsCtOolLGY/view?usp=sharing",
+  },
+  {
+    title: "Generative AI Productivity Skills",
+    image: certficate3,
+    issuer: "Microsoft and LinkedIn",
+    issuedDate: "Aug 15, 2024",
+    description: "Explored the applications of Generative AI in business and design, leveraging AI-driven tools to enhance productivity. Covered key areas such as artificial intelligence for business, AI-driven design strategies, and workflow optimization using AI-powered automation.",
+    certificateLink: "https://drive.google.com/file/d/19ZzIaFd9n1x5zATJJ2slQ3-ivaD7aviC/view?usp=sharing",
+  },
+  {
+    title: "Programming Foundations: Beyond the Fundamentals",
+    image: certficate4,
+    issuer: "Microsoft and LinkedIn",
+    issuedDate: "Aug 15, 2024",
+    description: "Strengthened programming skills by diving deeper into advanced coding concepts, data structures, and algorithms. Developed a solid understanding of problem-solving techniques, software development best practices, and efficient coding methodologies.",
+    certificateLink: "https://drive.google.com/file/d/1ksZSRoGpzDYv6xbfBrAKDVhjOKBSouyZ/view?usp=sharing",
+  },
+];
+
 
 export const CONTACT = {
   address: "Haridwar, Uttarakhand, India. ",

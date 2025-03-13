@@ -15,7 +15,7 @@ const Contact = () => {
                 transition={{ duration: 1 }}
                 className="text-center tracking-tighter">
                 <p className="my-4"> {CONTACT.address}</p>
-                <a href="mailto:ssid7074@gmail.com" className="border-b">{CONTACT.email}</a>
+                <a href="mailto:ssid7074@gmail.com" className="border-b text-violet-400">{CONTACT.email}</a>
             </motion.div>
         </div>
     )
