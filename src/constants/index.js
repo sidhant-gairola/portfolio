@@ -1,13 +1,13 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import certficate1 from "../assets/certificates/certificate-1.png";
-import certficate2 from "../assets/certificates/certificate-2.png";
-import certficate3 from "../assets/certificates/certificate-3.png";
-import certficate4 from "../assets/certificates/certificate-4.png";
-import { image } from "framer-motion/client";
+import certificate1 from "../assets/certificates/certificate-1.png";
+import certificate2 from "../assets/certificates/certificate-2.png";
+import certificate3 from "../assets/certificates/certificate-3.png";
+import certificate4 from "../assets/certificates/certificate-4.png";
+import certificate5 from "../assets/certificates/certificate-5.png";
 
-export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and front-end technologies like HTML, CSS, JavaScript, React, and Tailwind CSS, along with hands-on experience in back-end development using Node.js, Express.js, and database management with MySQL and MongoDB. With a strong foundation in Artificial Intelligence and Machine Learning, I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations.`;
+export const HERO_CONTENT = `I aim a dedicated full-stack developer with expertise in Java programming and front-end technologies like HTML, CSS, JavaScript, React, and Tailwind CSS, along with hands-on experience in back-end development using Node.js, Express.js, and database management with MySQL and MongoDB. With a strong foundation in Artificial Intelligence and Machine Learning, I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations.`;
 
 export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, React, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB. Currently pursuing my MCA in Artificial Intelligence & Machine Learning, I enjoy building user-friendly and scalable applications. I love learning new things, solving problems, and working in teams. I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations.
 Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also a guitarist and find music relaxing. Collaboration excites me because it helps me grow and improve as a developer.`;
@@ -49,7 +49,7 @@ export const PROJECTS = [
 export const CERTIFICATIONS = [
   {
     title: "Career Essentials in Data Analysis",
-    image: certficate1,
+    image: certificate1,
     issuer: "Microsoft and LinkedIn",
     issuedDate: "Aug 15, 2024",
     description: "Completed a comprehensive learning path covering fundamental data analysis techniques, data visualization, and data analytics. Developed proficiency in interpreting datasets, creating insightful visual reports, and leveraging analytical tools to drive data-driven decision-making.",
@@ -57,7 +57,7 @@ export const CERTIFICATIONS = [
   },
   {
     title: "Cloud Computing",
-    image: certficate2,
+    image: certificate2,
     issuer: "Infosys Springboard",
     issuedDate: "Mar 3, 2025",
     description: "Gained hands-on experience in cloud computing concepts, including virtualization, cloud service models, deployment strategies, and security best practices. Strengthened knowledge in cloud infrastructure, networking, and data storage solutions.",
@@ -65,16 +65,24 @@ export const CERTIFICATIONS = [
   },
   {
     title: "Generative AI Productivity Skills",
-    image: certficate3,
+    image: certificate3,
     issuer: "Microsoft and LinkedIn",
     issuedDate: "Aug 15, 2024",
     description: "Explored the applications of Generative AI in business and design, leveraging AI-driven tools to enhance productivity. Covered key areas such as artificial intelligence for business, AI-driven design strategies, and workflow optimization using AI-powered automation.",
     certificateLink: "https://drive.google.com/file/d/19ZzIaFd9n1x5zATJJ2slQ3-ivaD7aviC/view?usp=sharing",
   },
   {
+    "title": "Spring Boot Course",
+    "image": certificate4,
+    "issuer": "Scaler",
+    "issuedDate": "March 14, 2025",
+    "description": "Completed a course covering essential Spring Boot concepts, including building and deploying scalable applications. Gained hands-on experience with microservices architecture, RESTful APIs, and backend development best practices.",
+    "certificateLink": "https://moonshot.scaler.com/s/sl/X5mbV4CjSv?_gl=1*3vosay*FPAU*MTA4NDIxOTMyMy4xNzQxNzkxMTY0*_ga*NzYzOTcwODM5LjE3NDE3OTExNzM.*_ga_53S71ZZG1X*MTc0MTk2MjEwNi43LjEuMTc0MTk2ODQ2MC4wLjAuMTY2MDQ2MTY4Mg.."
+  },
+  {
     title: "Programming Foundations: Beyond the Fundamentals",
-    image: certficate4,
-    issuer: "Microsoft and LinkedIn",
+    image: certificate5,
+    issuer: "LinkedIn",
     issuedDate: "Aug 15, 2024",
     description: "Strengthened programming skills by diving deeper into advanced coding concepts, data structures, and algorithms. Developed a solid understanding of problem-solving techniques, software development best practices, and efficient coding methodologies.",
     certificateLink: "https://drive.google.com/file/d/1ksZSRoGpzDYv6xbfBrAKDVhjOKBSouyZ/view?usp=sharing",
