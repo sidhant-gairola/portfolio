@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
 import certificate1 from "../assets/certificates/certificate-1.png";
 import certificate2 from "../assets/certificates/certificate-2.png";
 import certificate3 from "../assets/certificates/certificate-3.png";
@@ -43,6 +44,14 @@ export const PROJECTS = [
     description:
       "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
     technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
+  },
+  {
+    title: "Simple Tic-Tac-Toe Game",
+    image: project4,
+    description:
+      "A web-based Tic-Tac-Toe game with an interactive UI and two-player functionality, built using front-end technologies.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    // link: "https://sidhant-gairola.github.io/tic-tac-toe/",
   },
 ];
 
