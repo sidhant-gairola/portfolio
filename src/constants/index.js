@@ -30,6 +30,7 @@ export const PROJECTS = [
     description:
       "A web application that integrates user inputs and medical data through a RESTful API to provide tailored recommendations.",
     technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express"],
+    // link: "https://medipath-chi.vercel.app/",
   },
   {
     title: "Nritya Dance Academy Website",
@@ -37,6 +38,7 @@ export const PROJECTS = [
     description:
       "A responsive website to enhance user engagement and streamline online services for a dance academy.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+    // link: "",
   },
   {
     title: "Multimodal Emotion Recognition System",
@@ -44,6 +46,7 @@ export const PROJECTS = [
     description:
       "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
     technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
+    // link: "",
   },
   {
     title: "Simple Tic-Tac-Toe Game",
