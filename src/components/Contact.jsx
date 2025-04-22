@@ -1,5 +1,7 @@
-import { CONTACT } from "../constants"
+import { CONTACT } from "../constants";
 import { motion } from 'framer-motion';
+import { IoMailOpenOutline } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
     return (
@@ -14,8 +16,14 @@ const Contact = () => {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 className="text-center tracking-tighter">
-                <p className="my-4"> {CONTACT.address}</p>
-                <a href="mailto:ssid7074@gmail.com" className="border-b text-violet-400">{CONTACT.email}</a>
+                <div className="flex flex-wrap justify-center gap-2">
+                    <FaLocationDot className="text-xl my-4" />
+                    <p className="my-4"> {CONTACT.address}</p>
+                </div>
+                <div className="flex flex-wrap justify-center gap-2">
+                    <IoMailOpenOutline className="text-xl" />
+                    <a href="mailto:ssid7074@gmail.com" className="text-violet-400">{CONTACT.email}</a>
+                </div>
             </motion.div>
         </div>
     )
