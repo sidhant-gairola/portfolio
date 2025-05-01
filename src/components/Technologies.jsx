@@ -6,6 +6,10 @@ import { RiNodejsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaGitAlt } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -27,7 +31,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl">Technologies</motion.h2>
+                className="my-20 text-center text-4xl">Tools & Technologies</motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -37,50 +41,71 @@ const Technologies = () => {
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiJavaFill className="text-7xl text-orange-400" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <RiJavaFill className="text-6xl text-orange-400" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <SiSpringboot className="text-6xl text-green-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <PiFileSql className="text-7xl" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <PiFileSql className="text-6xl" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <SiMongodb className="text-6xl text-green-500" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <SiExpress className="text-6xl text-slate-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiMongodb className="text-7xl text-green-500" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <RiReactjsLine className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(2.5)}
+                    variants={iconVariants(1.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiExpress className="text-7xl text-slate-500" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <RiNodejsLine className="text-6xl text-green-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-cyan-400" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <RiTailwindCssFill className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiNodejsLine className="text-7xl text-green-500" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <FaGitAlt className="text-6xl text-orange-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiTailwindCssFill className="text-7xl text-cyan-400" />
+                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    <FaGithub className="text-6xl " />
                 </motion.div>
             </motion.div>
         </div>
