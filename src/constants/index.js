@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 import certificate1 from "../assets/certificates/certificate-1.png";
 import certificate2 from "../assets/certificates/certificate-2.png";
 import certificate3 from "../assets/certificates/certificate-3.png";
@@ -15,11 +16,11 @@ Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2025 - Present",
-    role: "Full Stack Developer",
-    company: "Pheme Software Pvt. Ltd.",
+    year: "Feb 2025 - May 2025",
+    role: "Full Stack Developer Intern",
+    company: "IBM",
     description: `Led a team in developing and maintaining a web application using React.js, Node.js, Express.js, and Tailwind CSS. Implemented RESTful APIs and integrated them with backend tools and technologies. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
+    technologies: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "Gemini API"],
   },
 ];
 
@@ -29,16 +30,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "A web application that integrates user inputs and medical data through a RESTful API to provide tailored recommendations.",
-    technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express"],
-    // link: "https://medipath-chi.vercel.app/",
-  },
-  {
-    title: "Nritya Dance Academy Website",
-    image: project2,
-    description:
-      "A responsive website to enhance user engagement and streamline online services for a dance academy.",
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-    // link: "https://nritya-dance-website.onrender.com/",
+    technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "RESTful API"],
+    link: "https://medipath-ai.vercel.app/",
   },
   {
     title: "Multimodal Emotion Recognition System",
@@ -46,7 +39,23 @@ export const PROJECTS = [
     description:
       "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
     technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
-    // link: "/",
+    link: "/",
+  },
+  {
+    title: "Employee Management Portal",
+    image: project5,
+    description:
+      "An Employee Management Portal using Java Spring Boot, React, SQL, and Tailwind CSS, with real-time add, update, and delete operations.",
+    technologies: ["Java", "Spring Boot", "SQL", "React", "Tailwind CSS"],
+    link: "https://github.com/sidhant-gairola/em-portal",
+  },
+  {
+    title: "Nritya Dance Academy Website",
+    image: project2,
+    description:
+      "A responsive website to enhance user engagement and streamline online services for a dance academy.",
+    technologies: ["HTML", "CSS", "Node.js", "Express.js", "MongoDB", "Pug template"],
+    link: "https://nritya-dance-website.onrender.com/",
   },
   {
     title: "Tic-Tac-Toe Game",
@@ -54,7 +63,7 @@ export const PROJECTS = [
     description:
       "A web-based Tic-Tac-Toe game with an interactive UI and two-player functionality, built using front-end technologies.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    // link: "https://sidhant-gairola.github.io/tic-tac-toe/",
+    link: "https://sidhant-gairola.github.io/tic-tac-toe/",
   },
 ];
 

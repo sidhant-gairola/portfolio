@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-wrap justify-center gap-2">
                     <IoMailOpenOutline className="text-xl" />
-                    <a href="mailto:ssid7074@gmail.com" className="text-violet-400">{CONTACT.email}</a>
+                    <a href="mailto:ssid7074@gmail.com" className="text-blue-400">{CONTACT.email}</a>
                 </div>
             </motion.div>
         </div>

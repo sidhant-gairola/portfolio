@@ -35,7 +35,7 @@ const Certifications = () => {
                             </h6>
                             <h6 className='mb-2 font-semibold text-sm text-neutral-400'>Issued on - {certificate.issuedDate}</h6>
                             <p className="mb-4 text-neutral-400">{certificate.description}</p>
-                            <a href={certificate.certificateLink} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-violet-400">Click here to access the certificate.</a>
+                            <a href={certificate.certificateLink} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400">Click here to access the certificate.</a>
                         </motion.div>
                     </div>
                     )
