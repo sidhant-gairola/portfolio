@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 import certificate1 from "../assets/certificates/certificate-1.png";
 import certificate2 from "../assets/certificates/certificate-2.png";
 import certificate3 from "../assets/certificates/certificate-3.png";
@@ -26,11 +27,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Dream Feature Portal",
+    image: project6,
+    description:
+      "Dream Feature Portal is a full-stack web app that enables users to submit and interact with ideas in real time.",
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "CSS + Tailwind CSS", "MongoDB"],
+    link: "https://dream-feature-portal.vercel.app/",
+  },
+  {
     title: "Personalized Treatment Planning System",
     image: project1,
     description:
       "A web application that integrates user inputs and medical data through a RESTful API to provide tailored recommendations.",
-    technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "RESTful API"],
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "RESTful API"],
     link: "https://medipath-ai.vercel.app/",
   },
   {
