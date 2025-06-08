@@ -48,7 +48,7 @@ export const PROJECTS = [
     description:
       "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
     technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
-    link: "/",
+    link: "https://github.com/sidhant-gairola/Multimodal-Emotion-Recognition-System",
   },
   {
     title: "Employee Management Portal",
