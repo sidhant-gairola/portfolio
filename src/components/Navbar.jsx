@@ -10,9 +10,9 @@ const Navbar = () => {
                 <img src={logo} alt='logo' className='mx-2 w-28 cursor-pointer'></img>
             </div>
             <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-                <a href='https://www.instagram.com/sidhant_gairola/'><FaInstagram className='hover:-translate-y-0.5 hover:text-red-400' /></a>
-                <a href='https://linkedin.com/in/sidhant-gairola'><FaLinkedin className='hover:-translate-y-0.5 hover:text-blue-400' /></a>
-                <a href='https://github.com/sidhant-gairola'><FaGithub className='hover:-translate-y-0.5 hover:text-violet-400' /></a>
+                <a href='https://www.instagram.com/sidhant_gairola/'><FaInstagram className='hover:-translate-y-0.5 text-white hover:text-red-400' /></a>
+                <a href='https://linkedin.com/in/sidhant-gairola'><FaLinkedin className='hover:-translate-y-0.5 text-white hover:text-blue-400' /></a>
+                <a href='https://github.com/sidhant-gairola'><FaGithub className='hover:-translate-y-0.5 text-white hover:text-violet-400' /></a>
             </div>
         </nav>
     )

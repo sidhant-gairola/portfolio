@@ -9,6 +9,7 @@ import certificate2 from "../assets/certificates/certificate-2.png";
 import certificate3 from "../assets/certificates/certificate-3.png";
 import certificate4 from "../assets/certificates/certificate-4.png";
 import certificate5 from "../assets/certificates/certificate-5.png";
+import certificate6 from "../assets/certificates/certificate-6.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and front-end technologies, along with hands-on experience in back-end development and database management. With a strong foundation in Artificial Intelligence and Machine Learning.`;
 
@@ -43,20 +44,20 @@ export const PROJECTS = [
     link: "https://medipath-ai.vercel.app/",
   },
   {
-    title: "Multimodal Emotion Recognition System",
-    image: project3,
-    description:
-      "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
-    technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
-    link: "https://github.com/sidhant-gairola/Multimodal-Emotion-Recognition-System",
-  },
-  {
     title: "Employee Management Portal",
     image: project5,
     description:
       "An Employee Management Portal using Java Spring Boot, React, SQL, and Tailwind CSS, with real-time add, update, and delete operations.",
     technologies: ["Java", "Spring Boot", "SQL", "React", "Tailwind CSS"],
     link: "https://github.com/sidhant-gairola/em-portal",
+  },
+  {
+    title: "Multimodal Emotion Recognition System",
+    image: project3,
+    description:
+      "An AI-based system that detects real-time emotions using multimodal (text and image) fusion for high accuracy.",
+    technologies: ["Python", "VGG16", "BERT", "PyTorch", "TensorFlow"],
+    link: "https://github.com/sidhant-gairola/Multimodal-Emotion-Recognition-System",
   },
   {
     title: "Nritya Dance Academy Website",
@@ -78,12 +79,20 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Career Essentials in Data Analysis",
-    image: certificate1,
-    issuer: "Microsoft and LinkedIn",
-    issuedDate: "Aug 15, 2024",
-    description: "Completed a comprehensive learning path covering fundamental data analysis techniques, data visualization, and data analytics. Developed proficiency in interpreting datasets, creating insightful visual reports, and leveraging analytical tools to drive data-driven decision-making.",
-    certificateLink: "https://drive.google.com/file/d/1f1JtiB1Mr9IpV_8wrHOG4Qcz9POu_gmZ/view?usp=sharing",
+    title: "DBMS Course - Master the Fundamentals and Advanced Concepts",
+    image: certificate6,
+    issuer: "Scaler",
+    issuedDate: "June 06, 2025",
+    description: "Successfully completed an in-depth 30+ hour DBMS certification covering 16 modules, real-world SQL challenges, and core to advanced database concepts essential for backend and data-driven development.",
+    certificateLink: "https://moonshot.scaler.com/s/li/Zsmin3Ey4i",
+  },
+  {
+    "title": "Spring Boot Course",
+    "image": certificate4,
+    "issuer": "Scaler",
+    "issuedDate": "March 14, 2025",
+    "description": "Completed a course covering essential Spring Boot concepts, including building and deploying scalable applications. Gained hands-on experience with microservices architecture, RESTful APIs, and backend development best practices.",
+    "certificateLink": "https://moonshot.scaler.com/s/sl/X5mbV4CjSv?_gl=1*3vosay*FPAU*MTA4NDIxOTMyMy4xNzQxNzkxMTY0*_ga*NzYzOTcwODM5LjE3NDE3OTExNzM.*_ga_53S71ZZG1X*MTc0MTk2MjEwNi43LjEuMTc0MTk2ODQ2MC4wLjAuMTY2MDQ2MTY4Mg.."
   },
   {
     title: "Cloud Computing",
@@ -94,20 +103,20 @@ export const CERTIFICATIONS = [
     certificateLink: "https://drive.google.com/file/d/1x67sOY6E99jWxpbF1xSDl6AsCtOolLGY/view?usp=sharing",
   },
   {
+    title: "Career Essentials in Data Analysis",
+    image: certificate1,
+    issuer: "Microsoft and LinkedIn",
+    issuedDate: "Aug 15, 2024",
+    description: "Completed a comprehensive learning path covering fundamental data analysis techniques, data visualization, and data analytics. Developed proficiency in interpreting datasets, creating insightful visual reports, and leveraging analytical tools to drive data-driven decision-making.",
+    certificateLink: "https://drive.google.com/file/d/1f1JtiB1Mr9IpV_8wrHOG4Qcz9POu_gmZ/view?usp=sharing",
+  },
+  {
     title: "Generative AI Productivity Skills",
     image: certificate3,
     issuer: "Microsoft and LinkedIn",
     issuedDate: "Aug 15, 2024",
     description: "Explored the applications of Generative AI in business and design, leveraging AI-driven tools to enhance productivity. Covered key areas such as artificial intelligence for business, AI-driven design strategies, and workflow optimization using AI-powered automation.",
     certificateLink: "https://drive.google.com/file/d/19ZzIaFd9n1x5zATJJ2slQ3-ivaD7aviC/view?usp=sharing",
-  },
-  {
-    "title": "Spring Boot Course",
-    "image": certificate4,
-    "issuer": "Scaler",
-    "issuedDate": "March 14, 2025",
-    "description": "Completed a course covering essential Spring Boot concepts, including building and deploying scalable applications. Gained hands-on experience with microservices architecture, RESTful APIs, and backend development best practices.",
-    "certificateLink": "https://moonshot.scaler.com/s/sl/X5mbV4CjSv?_gl=1*3vosay*FPAU*MTA4NDIxOTMyMy4xNzQxNzkxMTY0*_ga*NzYzOTcwODM5LjE3NDE3OTExNzM.*_ga_53S71ZZG1X*MTc0MTk2MjEwNi43LjEuMTc0MTk2ODQ2MC4wLjAuMTY2MDQ2MTY4Mg.."
   },
   {
     title: "Programming Foundations: Beyond the Fundamentals",
