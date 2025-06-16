@@ -1,48 +1,78 @@
 import { CERTIFICATIONS } from '../constants';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const Certifications = () => {
+    const [selectedImage, setSelectedImage] = useState(null);
+
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-25">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl">Certificates</motion.h2>
-            <div>
-                {CERTIFICATIONS.map((certificate, index) => {
-                    return (<div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                        <motion.div
-                            whileInView={{ opacity: 1, x: 0 }}
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 1 }}
-                            className="w-full lg:w-1/4">
-                            <img
-                                src={certificate.image}
-                                width={200}
-                                height={150}
-                                alt={certificate.title}
-                                className="mb-6 rounded"
-                            />
-                        </motion.div>
-                        <motion.div
-                            whileInView={{ opacity: 1, x: 0 }}
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 1 }}
-                            className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-1 font-semibold">{certificate.title} - {" "}
-                                <span className="text-sm text-purple-100">{certificate.issuer}</span>
-                            </h6>
-                            <h6 className='mb-2 font-semibold text-sm text-neutral-400'>Issued on - {certificate.issuedDate}</h6>
-                            <p className="mb-4 text-neutral-400">{certificate.description}</p>
-                            <a href={certificate.certificateLink} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400">Click here to access the certificate.</a>
-                        </motion.div>
-                    </div>
-                    )
-                })}
-            </div>
-        </div>
-    )
-}
+                className="my-20 text-center text-4xl"
+            >
+                Certificates
+            </motion.h2>
 
-export default Certifications
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15 px-4">
+                {CERTIFICATIONS.map((certificate, index) => (
+                    <motion.div
+                        key={index}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, y: 100 }}
+                        transition={{ duration: 0.5 }}
+                        className="p-4 rounded-lg shadow-md flex flex-col hover:bg-neutral-900 hover:scale-105 duration-500 justify-between"
+                    >
+                        <img
+                            src={certificate.image}
+                            alt={certificate.title}
+                            className="rounded w-full object-center mb-4 cursor-pointer"
+                            onClick={() => setSelectedImage(certificate.image)}
+                        />
+                        <div className="flex flex-col flex-grow">
+                            <h6 className="text-lg font-semibold mb-1">
+                                {certificate.title}{" "}
+                                <span className="text-sm font-normal text-purple-100">- {certificate.issuer}</span>
+                            </h6>
+                            <p className="text-sm text-neutral-400 mb-2">
+                                Issued on: {certificate.issuedDate}
+                            </p>
+                            <p className="text-neutral-400 text-sm mb-4 line-clamp-4">
+                                {certificate.description}
+                            </p>
+                            <div className="mt-auto">
+                                <a
+                                    href={certificate.certificateLink}
+                                    className="inline-block rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Click here to access the certificate.
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+                ))}
+            </div>
+
+            {/* Modal Overlay */}
+            {selectedImage && (
+                <div
+                    className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <img
+                        src={selectedImage}
+                        alt="Full Certificate"
+                        className="rounded shadow-lg"
+                        onClick={(e) => e.stopPropagation()} // Prevent modal close when clicking the image
+                    />
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default Certifications;

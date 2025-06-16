@@ -41,70 +41,70 @@ const Technologies = () => {
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <RiJavaFill className="text-6xl text-orange-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <SiSpringboot className="text-6xl text-green-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <PiFileSql className="text-6xl" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <SiMongodb className="text-6xl text-green-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <SiExpress className="text-6xl text-slate-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <RiReactjsLine className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(1.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <RiNodejsLine className="text-6xl text-green-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <RiTailwindCssFill className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <FaGitAlt className="text-6xl text-orange-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-3">
+                    className="rounded-2xl border-4 border-neutral-800 p-3 cursor-pointer">
                     <FaGithub className="text-6xl " />
                 </motion.div>
             </motion.div>
