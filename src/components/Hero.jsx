@@ -42,8 +42,9 @@ const Hero = () => {
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 1, delay: 1.2 }}
-                            src={profilePic} alt='Sidhant Gairlola' className='rounded-4xl mt-10 w-sm hover:scale-105 duration-500'></motion.img>
+                            transition={{ duration: 0.5 }}
+                            src={profilePic} alt='Sidhant Gairlola' className='rounded-4xl mt-10 w-sm hover:scale-105 duration-500'>
+                        </motion.img>
                     </div>
                 </div>
             </div>
