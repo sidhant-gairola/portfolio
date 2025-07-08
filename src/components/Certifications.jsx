@@ -37,7 +37,7 @@ const Certifications = () => {
                 Certificates
             </motion.h2>
 
-            <div className="px-4">
+            <div>
                 <Carousel
                     responsive={responsive}
                     showDots={true}
@@ -45,20 +45,20 @@ const Certifications = () => {
                     arrows={false}
                     keyBoardControl={true}
                     dotListClass="custom-dot-list-style mt-6"
-                    itemClass="px-2"
+                    itemClass="px-4"
                 >
                     {CERTIFICATIONS.map((certificate, index) => (
                         <div
                             key={index}
-                            className="mb-8 p-4 rounded-lg shadow-md flex flex-col hover:bg-neutral-900 hover:scale-102 duration-300 justify-between"
+                            className="mb-8 rounded-lg shadow-md flex flex-col hover:bg-neutral-900 hover:scale-102 duration-300 justify-between"
                         >
                             <img
                                 src={certificate.image}
                                 alt={certificate.title}
-                                className="rounded w-full object-center mb-4 h-48 cursor-pointer"
+                                className="rounded aspect-[1.75] w-full object-center mb-4 cursor-pointer"
                                 onClick={() => setSelectedImage(certificate.image)}
                             />
-                            <div className="flex flex-col flex-grow">
+                            <div className="flex flex-col flex-grow p-4">
                                 <h6 className="text-lg font-semibold mb-1 text-white">
                                     {certificate.title}{" "}
                                     <span className="text-sm font-normal text-purple-100">- {certificate.issuer}</span>

@@ -34,17 +34,23 @@ const Projects = () => {
                 Projects
             </motion.h2>
 
-            <div className="px-4">
-                <Carousel responsive={responsive} showDots={true} keyBoardControl={true} arrows={false} dotListClass="custom-dot-list-style mt-6" itemClass="px-2">
+            <div>
+                <Carousel
+                    responsive={responsive}
+                    showDots={true}
+                    keyBoardControl={true}
+                    arrows={false}
+                    dotListClass="custom-dot-list-style mt-6"
+                    itemClass="px-4">
                     {PROJECTS.map((project, index) => (
                         <div
                             key={index}
-                            className="mb-6 p-4 rounded-lg shadow-md flex flex-col hover:bg-neutral-900 hover:scale-102 duration-300 justify-between">
+                            className="mb-8 rounded-lg shadow-md flex flex-col hover:bg-neutral-900 hover:scale-102 duration-300 justify-between">
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="rounded w-full object-center mb-4 h-48" />
-                            <div className="flex flex-col flex-grow">
+                                className="rounded aspect-[1.75] w-full object-center mb-4" />
+                            <div className="flex p-4 flex-col flex-grow">
                                 <h6 className="text-lg font-semibold mb-2 text-white">{project.title}</h6>
                                 <a
                                     href={project.link}

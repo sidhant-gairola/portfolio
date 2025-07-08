@@ -79,7 +79,7 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "DBMS Course - Master the Fundamentals and Advanced Concepts",
+    title: "DBMS Course",
     image: certificate6,
     issuer: "Scaler",
     issuedDate: "June 06, 2025",
@@ -103,7 +103,7 @@ export const CERTIFICATIONS = [
     certificateLink: "https://drive.google.com/file/d/1x67sOY6E99jWxpbF1xSDl6AsCtOolLGY/view?usp=sharing",
   },
   {
-    title: "Career Essentials in Data Analysis",
+    title: "Data Analysis",
     image: certificate1,
     issuer: "Microsoft and LinkedIn",
     issuedDate: "Aug 15, 2024",
@@ -119,7 +119,7 @@ export const CERTIFICATIONS = [
     certificateLink: "https://drive.google.com/file/d/19ZzIaFd9n1x5zATJJ2slQ3-ivaD7aviC/view?usp=sharing",
   },
   {
-    title: "Programming Foundations: Beyond the Fundamentals",
+    title: "Programming Foundations",
     image: certificate5,
     issuer: "LinkedIn",
     issuedDate: "Aug 15, 2024",
