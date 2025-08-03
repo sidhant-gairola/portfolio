@@ -36,7 +36,7 @@ const GoToTopButton = () => {
             {isVisible && (
                 <motion.button
                     onClick={scrollToTop}
-                    className="fixed bottom-6 right-6 p-4 bg-blue-600 text-white rounded-full shadow-lg z-50 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 transition-colors duration-200"
+                    className="fixed bottom-10 right-6 p-4 bg-blue-600 text-white rounded-full shadow-lg z-50 hover:bg-white hover:text-blue-600 transition-colors duration-150"
                     initial={{ opacity: 0, y: 50 }} // Start hidden and slightly below
                     animate={{ opacity: 1, y: 0 }}   // Fade in and slide up
                     exit={{ opacity: 0, y: 50 }}     // Fade out and slide down

@@ -39,7 +39,8 @@ const Projects = () => {
                     responsive={responsive}
                     showDots={true}
                     keyBoardControl={true}
-                    arrows={false}
+                    infinite={false}
+                    arrows={true}
                     dotListClass="custom-dot-list-style mt-6"
                     itemClass="px-4">
                     {PROJECTS.map((project, index) => (
@@ -65,7 +66,7 @@ const Projects = () => {
                                     {project.technologies.map((tech, techIndex) => (
                                         <span
                                             key={techIndex}
-                                            className="text-purple-400 text-xs font-medium bg-neutral-900 px-2 py-1 rounded"
+                                            className="text-purple-400 text-xs italic font-medium bg-neutral-900 px-2 py-1 rounded"
                                         >
                                             {tech}
                                         </span>

@@ -41,8 +41,8 @@ const Certifications = () => {
                 <Carousel
                     responsive={responsive}
                     showDots={true}
-                    infinite={true}
-                    arrows={false}
+                    infinite={false}
+                    arrows={true}
                     keyBoardControl={true}
                     dotListClass="custom-dot-list-style mt-6"
                     itemClass="px-4"
@@ -63,7 +63,7 @@ const Certifications = () => {
                                     {certificate.title}{" "}
                                     <span className="text-sm font-normal text-purple-100">- {certificate.issuer}</span>
                                 </h6>
-                                <p className="text-sm text-neutral-400 mb-2">
+                                <p className="text-sm italic text-neutral-400 mb-2">
                                     Issued on: {certificate.issuedDate}
                                 </p>
                                 <p className="text-neutral-400 text-sm mb-4 line-clamp-4">

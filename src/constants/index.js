@@ -20,9 +20,9 @@ export const EXPERIENCES = [
   {
     year: "Feb 2025 - May 2025",
     role: "Full Stack Developer Intern",
-    company: "IBM",
+    company: "Pheme Software Pvt Ltd (IBM)",
     description: `Led a team in developing and maintaining a web application using React.js, Node.js, Express.js, and Tailwind CSS. Implemented RESTful APIs and integrated them with backend tools and technologies. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "Gemini API"],
+    technologies: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "RESTful API", "Gemini API"],
   },
 ];
 
