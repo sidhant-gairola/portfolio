@@ -10,13 +10,20 @@ import certificate3 from "../assets/certificates/certificate-3.png";
 import certificate4 from "../assets/certificates/certificate-4.png";
 import certificate5 from "../assets/certificates/certificate-5.png";
 import certificate6 from "../assets/certificates/certificate-6.png";
+import certificate7 from "../assets/certificates/certificate-7.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and front-end technologies, along with hands-on experience in back-end development and database management. With a strong foundation in Artificial Intelligence and Machine Learning.`;
 
-export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, Spring Boot, React, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB. Currently pursuing my MCA in Artificial Intelligence & Machine Learning, I enjoy building user-friendly and scalable applications. I love learning new things, solving problems, and working in teams. I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations.
-Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also a guitarist and find music relaxing. Collaboration excites me because it helps me grow and improve as a developer.`;
+export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, Spring Boot, React, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB. An MCA graduate (2025) sp. in Artificial Intelligence & Machine Learning, I enjoy building user-friendly and scalable applications. I love learning new things, solving problems, and working in teams. I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations. Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also a guitarist and find music relaxing. Collaboration excites me because it helps me grow and improve as a developer.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Aug 2025 - Present",
+    role: "Software Engineer",
+    company: "Codexuslabs AI Solutions",
+    description: "Worked as a Software Engineer focusing on AI/ML solutions and full-stack development. Built scalable applications using React.js, Node.js, Tailwind CSS, and MongoDB, and integrated ML models to deliver intelligent, end-to-end solutions.",
+    technologies: ["python", "AI & ML models", "React.js", "Node.js", "Express.js", "Tailwind CSS"],
+  },
   {
     year: "Feb 2025 - May 2025",
     role: "Full Stack Developer Intern",
@@ -78,6 +85,14 @@ export const PROJECTS = [
 ];
 
 export const CERTIFICATIONS = [
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    image: certificate7,
+    issuer: "Oracle",
+    issuedDate: "August 23, 2025",
+    description: "Successfully earned the Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate credential. The certification covered AI, ML, and Deep Learning fundamentals, Generative AI and Large Language Models, OCI AI Tools and Services including AI Services, ML Services, Generative AI, Oracle 23ai, and Select AI, along with responsible AI practices.",
+    certificateLink: "https://drive.google.com/file/d/1HUBIyfokgNa1MNuVrsNVWhGjT2iu-kS1/view?usp=sharing",
+  },
   {
     title: "DBMS Course",
     image: certificate6,
