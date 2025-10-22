@@ -18,11 +18,11 @@ export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, Spring B
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2025 - Present",
+    year: "Aug 2025 - Oct 2025",
     role: "Software Engineer",
     company: "Codexuslabs AI Solutions",
     description: "Worked as a Software Engineer focusing on AI/ML solutions and full-stack development. Built scalable applications using React.js, Node.js, Tailwind CSS, and MongoDB, and integrated ML models to deliver intelligent, end-to-end solutions.",
-    technologies: ["python", "AI & ML models", "React.js", "Node.js", "Express.js", "Tailwind CSS"],
+    technologies: ["Python", "React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
   },
   {
     year: "Feb 2025 - May 2025",
