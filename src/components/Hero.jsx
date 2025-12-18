@@ -1,6 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter';
 import { HERO_CONTENT } from '../constants/index.js';
-import profilePic from '../assets/SidhantGairolaProfile.jpeg';
+import profilePic from '../assets/SidhantGairolaProfile.png';
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
