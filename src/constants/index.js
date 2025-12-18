@@ -12,11 +12,18 @@ import certificate5 from "../assets/certificates/certificate-5.png";
 import certificate6 from "../assets/certificates/certificate-6.png";
 import certificate7 from "../assets/certificates/certificate-7.png";
 
-export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and front-end technologies, along with hands-on experience in back-end development and database management. With a strong foundation in Artificial Intelligence and Machine Learning.`;
+export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and modern front-end technologies, along with hands-on experience in back-end development and database management. I also have a strong foundation in Artificial Intelligence, Machine Learning and Cyber Security.`;
 
 export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, Spring Boot, React, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB. An MCA graduate (2025) sp. in Artificial Intelligence & Machine Learning, I enjoy building user-friendly and scalable applications. I love learning new things, solving problems, and working in teams. I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations. Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also a guitarist and find music relaxing. Collaboration excites me because it helps me grow and improve as a developer.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Dec 2025 - Present",
+    role: "ISCP Trainee (Information Security)",
+    company: "Flipkart",
+    description: "Currently working as an ISCP Trainee, focusing on strengthening internal information security by developing a security portal that centralizes user information, improves data access visibility, and enables log monitoring to detect and mitigate potential security threats.",
+    technologies: ["React.js", "Tailwind CSS", "Python", "MySQL", "Docker", "Rancher"]
+  },
   {
     year: "Aug 2025 - Oct 2025",
     role: "Software Engineer",
