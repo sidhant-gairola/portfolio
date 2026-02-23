@@ -20,10 +20,10 @@ export const ABOUT_TEXT = `I am a Software Engineer with an MCA specialization i
 export const EXPERIENCES = [
   {
     year: "Dec 2025 - Present",
-    role: "ISCP Trainee (Information Security)",
+    role: "Security Analyst",
     company: "Flipkart",
-    description: "Currently working as an ISCP Trainee, focusing on strengthening internal information security by developing a security portal that centralizes user information, improves data access visibility, and enables log monitoring to detect and mitigate potential security threats.",
-    technologies: ["React.js", "Tailwind CSS", "Python", "MySQL", "Docker", "Rancher"]
+    description: "Currently working as a Security Analyst, developing a centralized security portal that aggregates and monitors alerts and incidents from multiple security tools in one unified platform. The system is designed to automatically analyze logs and take predefined actions based on custom rule configurations. Simultaneously, I am actively testing and evaluating various security tools, which is broadening my understanding of different security architectures and threat detection mechanisms. Continuous monitoring of real-time alerts and incidents enables me to analyze how threats manifest in real-world environments and improve response strategies accordingly.",
+    technologies: ["React.js", "Tailwind CSS", "Python", "Fast API", "MySQL", "Docker", "Kubernetes"]
   },
   {
     year: "Aug 2025 - Oct 2025",
