@@ -2,8 +2,20 @@ import { CONTACT } from "../constants";
 import { motion } from 'framer-motion';
 import { IoMailOpenOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import { useEffect, useState } from "react";
+
+const VISIT_COUNT_KEY = "portfolio_visit_count";
 
 const Contact = () => {
+    const [visitCount, setVisitCount] = useState(null);
+
+    useEffect(() => {
+        const previousCount = Number(localStorage.getItem(VISIT_COUNT_KEY) || "0");
+        const nextCount = previousCount + 1;
+        localStorage.setItem(VISIT_COUNT_KEY, String(nextCount));
+        setVisitCount(nextCount);
+    }, []);
+
     return (
         <div className="border-b border-neutral-900 pb-20">
             <motion.h2
@@ -24,6 +36,9 @@ const Contact = () => {
                     <IoMailOpenOutline className="text-xl" />
                     <a href="mailto:ssid7074@gmail.com" className="text-blue-400">{CONTACT.email}</a>
                 </div>
+                <p className="mt-8 text-sm text-neutral-400">
+                    Portfolio visits: {visitCount ?? "..."}
+                </p>
             </motion.div>
         </div>
     )

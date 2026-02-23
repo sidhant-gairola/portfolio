@@ -12,9 +12,10 @@ import certificate5 from "../assets/certificates/certificate-5.png";
 import certificate6 from "../assets/certificates/certificate-6.png";
 import certificate7 from "../assets/certificates/certificate-7.png";
 
-export const HERO_CONTENT = `I am a dedicated full-stack developer with expertise in Java programming and modern front-end technologies, along with hands-on experience in back-end development and database management. I also have a strong foundation in Artificial Intelligence, Machine Learning and Cyber Security.`;
+export const HERO_CONTENT = `Software Engineer by degree with an MCA specialization in AI & ML, strong foundations in DSA, and a primary focus on Java. I have hands-on experience with MERN stack development, Git, and GitHub, and I am currently working as a Security Analyst at Flipkart where I build security dashboards and monitor & analyze alerts and incidents.`;
 
-export const ABOUT_TEXT = `I am a full-stack developer skilled in Java, Spring Boot, React, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB. An MCA graduate (2025) sp. in Artificial Intelligence & Machine Learning, I enjoy building user-friendly and scalable applications. I love learning new things, solving problems, and working in teams. I am passionate about designing and developing innovative, user-centric solutions that integrate advanced technologies to enhance user experience, optimize performance, and drive meaningful digital transformations. Outside of coding, I enjoy playing volleyball, cricket, and badminton. I am also a guitarist and find music relaxing. Collaboration excites me because it helps me grow and improve as a developer.`;
+export const ABOUT_TEXT = `I am a Software Engineer with an MCA specialization in Artificial Intelligence and Machine Learning.
+ Over time, I have built a strong understanding of cyber security and data analytics tools, while strengthening my core problem-solving skills through Data Structures and Algorithms. Java is my primary language, and I have practical development experience with web technologies including the MERN stack, along with version control workflows using Git and GitHub. Currently, I am working as a Security Analyst at Flipkart, where I build and maintain security dashboards, monitor and analyze alerts and incidents, and continuously study how security policies are designed, implemented, and improved in real-world environments.`;
 
 export const EXPERIENCES = [
   {
