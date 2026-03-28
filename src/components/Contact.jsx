@@ -4,16 +4,41 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 
-const VISIT_COUNT_KEY = "portfolio_visit_count";
-
 const Contact = () => {
     const [visitCount, setVisitCount] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const previousCount = Number(localStorage.getItem(VISIT_COUNT_KEY) || "0");
-        const nextCount = previousCount + 1;
-        localStorage.setItem(VISIT_COUNT_KEY, String(nextCount));
-        setVisitCount(nextCount);
+        const updateVisitCount = async () => {
+            try {
+                const response = await fetch('/api/visit-counter', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    setVisitCount(data.count);
+                } else {
+                    // Fallback to localStorage if API fails
+                    const fallbackCount = Number(localStorage.getItem("portfolio_visit_count") || "0") + 1;
+                    localStorage.setItem("portfolio_visit_count", String(fallbackCount));
+                    setVisitCount(fallbackCount);
+                }
+            } catch (error) {
+                console.error('Error fetching visit count:', error);
+                // Fallback to localStorage if API fails
+                const fallbackCount = Number(localStorage.getItem("portfolio_visit_count") || "0") + 1;
+                localStorage.setItem("portfolio_visit_count", String(fallbackCount));
+                setVisitCount(fallbackCount);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        updateVisitCount();
     }, []);
 
     return (
@@ -37,7 +62,7 @@ const Contact = () => {
                     <a href="mailto:ssid7074@gmail.com" className="text-blue-400">{CONTACT.email}</a>
                 </div>
                 <p className="mt-8 text-sm text-neutral-400">
-                    Portfolio visits: {visitCount ?? "..."}
+                    Portfolio visits: {isLoading ? "..." : visitCount}
                 </p>
             </motion.div>
         </div>
