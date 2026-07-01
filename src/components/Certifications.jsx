@@ -69,7 +69,7 @@ const Certifications = () => {
                                 <p className="text-neutral-400 text-sm mb-4 line-clamp-4">
                                     {certificate.description}
                                 </p>
-                                <div className="mt-auto">
+                                {/* <div className="mt-auto">
                                     <a
                                         href={certificate.certificateLink}
                                         className="inline-block rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400"
@@ -78,7 +78,7 @@ const Certifications = () => {
                                     >
                                         Click here to access the certificate.
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}

@@ -20,10 +20,10 @@ const Contact = () => {
                     <FaLocationDot className="text-xl my-4" />
                     <p className="my-4"> {CONTACT.address}</p>
                 </div>
-                <div className="flex flex-wrap justify-center gap-2">
+                {/* <div className="flex flex-wrap justify-center gap-2">
                     <IoMailOpenOutline className="text-xl" />
                     <a href="mailto:ssid7074@gmail.com" className="text-blue-400">{CONTACT.email}</a>
-                </div>
+                </div> */}
             </motion.div>
         </div>
     )

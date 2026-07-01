@@ -11,11 +11,17 @@ import certificate4 from "../assets/certificates/certificate-4.png";
 import certificate5 from "../assets/certificates/certificate-5.png";
 import certificate6 from "../assets/certificates/certificate-6.png";
 import certificate7 from "../assets/certificates/certificate-7.png";
+import certificate8 from "../assets/certificates/certificate-8.png";
 
-export const HERO_CONTENT = `Software Engineer by degree with an MCA specialization in AI & ML, strong foundations in DSA, and a primary focus on Java. I have hands-on experience with MERN stack development, Git, and GitHub, and I am currently working as a Security Analyst at Flipkart where I build security dashboards and monitor & analyze alerts and incidents.`;
+export const HERO_CONTENT = `Software Engineer with a passion for building secure, scalable, and practical solutions. I enjoy solving real world problems, turning ideas into real products, and continuously exploring cybersecurity, AI, and modern web technologies. Focused on learning, improving, and creating technology that makes an impact.`;
 
-export const ABOUT_TEXT = `I am a Software Engineer with an MCA specialization in Artificial Intelligence and Machine Learning.
- Over time, I have built a strong understanding of cyber security and data analytics tools, while strengthening my core problem-solving skills through Data Structures and Algorithms. Java is my primary language, and I have practical development experience with web technologies including the MERN stack, along with version control workflows using Git and GitHub. Currently, I am working as a Security Analyst at Flipkart, where I build and maintain security dashboards, monitor and analyze alerts and incidents, and continuously study how security policies are designed, implemented, and improved in real-world environments.`;
+export const ABOUT_TEXT = `I am a Software Engineer who enjoys building technology that is both practical and reliable. My work has given me exposure to software development, cybersecurity, automation, and artificial intelligence, allowing me to approach problems from multiple perspectives rather than focusing on a single domain.
+
+I have worked on developing full-stack applications, designing secure systems, creating AI-powered solutions, and building dashboards that simplify complex workflows. Over time, this has strengthened my ability to understand how software is designed, how systems interact, and how security should be integrated throughout the development process instead of being treated as an afterthought.
+
+My strongest foundation lies in problem solving, data structures and algorithms, and writing clean, maintainable code. I enjoy learning new technologies, understanding how they work internally, and applying them to solve real-world challenges. Whether it is backend development, frontend experiences, security engineering, automation, or data-driven applications, I value building solutions that are scalable, efficient, and easy to maintain.
+
+Beyond technical skills, I believe continuous learning, adaptability, and attention to detail are equally important. Technology evolves rapidly, and I enjoy exploring new tools, frameworks, and security practices that help me grow as an engineer while delivering meaningful solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -23,7 +29,7 @@ export const EXPERIENCES = [
     role: "Security Analyst",
     company: "Flipkart",
     description: "Currently working as a Security Analyst, developing a centralized security portal that aggregates and monitors alerts and incidents from multiple security tools in one unified platform. The system is designed to automatically analyze logs and take predefined actions based on custom rule configurations. Simultaneously, I am actively testing and evaluating various security tools, which is broadening my understanding of different security architectures and threat detection mechanisms. Continuous monitoring of real-time alerts and incidents enables me to analyze how threats manifest in real-world environments and improve response strategies accordingly.",
-    technologies: ["React.js", "Tailwind CSS", "Python", "Fast API", "MySQL", "Docker", "Kubernetes"]
+    technologies: ["Security Engineering", "Incident Response", "Alert Monitoring", "Web Development", "Risk Analysis", "Security Tools Evaluation"],
   },
   {
     year: "Aug 2025 - Oct 2025",
@@ -94,6 +100,14 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
+    title: "Digital Personal Data Protection (DPDP) Act 2023",
+    image: certificate8,
+    issuer: "DPDP Act 2023",
+    issuedDate: "May 1, 2026",
+    description: "Completed certification on the Digital Personal Data Protection Act (DPDPA), gaining an understanding of data privacy principles, regulatory compliance, data processing obligations, and the responsibilities of organizations in protecting personal data.",
+    certificateLink: "https://drive.google.com/file/d/1HUBIyfokgNa1MNuVrsNVWhGjT2iu-kS1/view?usp=sharing",
+  },
+  {
     title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
     image: certificate7,
     issuer: "Oracle",
@@ -153,6 +167,6 @@ export const CERTIFICATIONS = [
 
 
 export const CONTACT = {
-  address: "Haridwar, Uttarakhand, India. ",
-  email: "ssid7074@gmail.com",
+  address: "Uttarakhand, India. ",
+  // email: "ssid7074@gmail.com",
 };
